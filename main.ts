@@ -31,7 +31,7 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (KSRobot_IOT.Wifi_Connection() && START) {
-        if (Distance < 20) {
+        if (Distance < 20 && Distance > 1) {
             KSRobot_IOT.IFTTT_set(
             "distance_alert",
             "bSwSN95G-LckAmVAGeWx9i",
