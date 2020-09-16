@@ -6,7 +6,7 @@ let START = false
 KSRobot_IOT.Wifi_setup(
 SerialPin.P15,
 SerialPin.P8,
-"ASUS_chicken",
+"ASUS_chickenhouse",
 "0937675615",
 KSRobot_IOT.IOT_Config.STATION
 )
