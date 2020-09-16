@@ -23,7 +23,7 @@ basic.forever(function () {
     )
     I2C_LCD1602.ShowString("" + Distance + "   ", 9, 0)
     if (START) {
-        I2C_LCD1602.ShowString("enable", 6, 0)
+        I2C_LCD1602.ShowString("enable", 6, 1)
     } else {
         I2C_LCD1602.ShowString("disable", 6, 1)
     }
